@@ -64,7 +64,27 @@
         <div class="container">
             <div class="columns is-8 is-variable">
                 <div class="column is-7-tablet">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem exercitationem magnam suscipit eius, quam natus illum excepturi ducimus consequuntur doloremque neque qui. Ullam facilis, eligendi fuga repudiandae deleniti unde!</p>
+                    <!-- tabbed content -->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-information">
+                                <a>Delivery Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quam laudantium ad, autem pariatur consequatur illo possimus molestiae dolorem. Repudiandae nisi reprehenderit, quasi eius illo vitae quos fugiat temporibus maiores.</p>
+                        </div>
+                        <div id="delivery-information" class="is-hidden">
+                            <h3 class="is-size-5 title">Delivery Information</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quam laudantium ad, autem pariatur consequatur illo possimus molestiae dolorem. Repudiandae nisi reprehenderit, quasi eius illo vitae quos fugiat temporibus maiores. 2</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="column is-5-tablet">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ex quae aut veritatis dignissimos exercitationem impedit dolore iste atque deserunt, delectus fugiat animi iusto fugit voluptas debitis ratione sit ipsa.</p>
